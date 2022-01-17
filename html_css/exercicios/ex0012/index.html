@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html>
+    <meta charset="utf-8">
+    <meta lang="pt-br">
+    <head>
+        
+        <meta viewport="width=device-width, initial-scale = 1.0">
+        <title> Mídias dinâmicas </title>
+        <h1> Imagem dinâmica </h1>
+        <p> Tente abrir em diferentes tamanhos de tela .</p>
+
+        <picture>
+            <source media="(max-width: 750px") srcset="../img/foto-p.png" type="image/png" > 
+            <source media="(max-width: 1050px") srcset="../img/foto-m.png" type="image/png" > 
+            <img src="../img/foto-g.png" alt="imagem flexível">
+        </picture>
+        <h1>Reproduzindo audio </h1>
+        <h2>Forma 1 </h2>
+        <audio src="Oh Fire - Carmen María and Edu Espinal.mp3" controls > Regae Music</audio>
+        <h2>Forma 2: mais dinâmica </h2>
+
+        <audio preload="metadata" controls loop>
+            <source src="Oh Fire - Carmen María and Edu Espinal.mp3" conntrols type="audio/mpeg" >
+            <p>Infelizmente seu navegador não conseguiu reproduzir
+            <a href="Oh Fire - Carmen María and Edu Espinal.mp3"></a> </p>
+        </audio>
+    </head>
+    <body>
+        
+    </body>
+</html>
