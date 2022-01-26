@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style> 
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            
+        }
+        header{
+            background-color: rgb(165, 153, 153);
+            padding: 10px ;
+            margin: 10px;
+            border-radius: 0.2em;
+            
+        }
+        main{
+            background-color: rgb(100, 93, 93);
+            padding: 10px;
+            margin:10px;
+            border-radius: 0.2em;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            border-radius: 0.2em;
+            margin:0px;
+        }
+        article{
+            border-radius: 0.2em;
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: lightgray ;
+        }
+        #assuntos{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>  Meu site</h1>
+       
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"> 
+            <p> Esportes Política e Tecnologia</p>
+        </section>
+        <section id="noticias"> 
+            <article><h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe delectus in, explicabo veritatis reprehenderit officiis illum quod sapiente. Nemo ea eaque itaque ipsum odio ipsa error dolor in corrupti?</p>
+                <aside>
+                    <p>Artigo escrito por José Silva</p>
+                </aside>
+             </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por José Wesley</p>
+    </footer>
+</body>
+</html>
