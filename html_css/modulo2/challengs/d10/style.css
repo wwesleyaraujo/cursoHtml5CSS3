@@ -56,6 +56,17 @@ header > p {
     text-shadow: -2px 1px 6px black; 
    
 }
+li > a {
+    text-decoration: none;
+    color: inherit;
+}
+li > a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 90, 211);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 0.1em;
+    padding: 2px;
+}
 main{
     margin-left: 20%;
     margin-right: 20%;
