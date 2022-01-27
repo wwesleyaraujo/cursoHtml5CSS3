@@ -1,0 +1,231 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Condensed:wght@700&display=swap');
+@font-face {
+    font-family: myfont;
+    src: url("./fontes/idroid.otf");
+}
+
+
+
+
+body{
+
+    background-color: #1aec75;
+    margin:0px;
+}
+
+
+.idroid{
+    font-family: myfont, Arial, sans-serif;
+    color: green;
+    font-weight: 500;
+    margin-left: 1em;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 2px black;
+}
+#backColor{
+    background: linear-gradient(to right, #aaf3c2 0%, #ffffff 100%);
+    text-indent: 0.4em;
+}
+#principal{
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: -2px 1px 6px black; 
+    padding-top: 30px;
+    font-size: 3em;
+}
+/*
+ul{
+    list-style-type: none;
+}
+*/
+
+header{
+    background: linear-gradient(to top, #078627 0%, #45f594 100%);
+    box-shadow: 1px 1px 20px 3px black;
+}
+header > p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -2px 1px 6px black; 
+   
+}
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    box-shadow:-2px 2px 5px black; 
+    border-radius: 0.06em;
+}
+
+main > h1 {
+    margin-top: 2px;
+    padding-top: 1.1em;
+}
+main > p {
+    margin-left: 32px;
+    text-indent: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    margin-right: 32px;
+    text-align: justify;
+}
+
+menu{
+    padding-left: 0px;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+  
+}
+
+ul{
+    padding-left: 20px;
+    margin-bottom: 0.5em;
+}
+li{
+    display: inline;
+    padding-left: 0px;
+    padding-right: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:  -2px 2px 5px black;
+}
+
+.centralImg > img {
+    border-radius: 0.1em;
+
+}
+.centralImg p {
+    text-align: center;
+}
+.video{
+    background-color: rgb(10, 78, 10);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 7px 0px black;
+}
+
+p > iframe{
+    box-shadow: 1px 1px 14px 0px black;
+    border-radius: 0.2em;
+}
+
+.info {
+    background-color: rgba(21, 245, 13, 0.301);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+   box-shadow:  1px 1px 9px 0px black;
+   border-radius: 0.2em;
+   padding-bottom: 5px;
+}
+.info-title{
+    text-indent: 1em;
+    background-color: #0b9246;
+    border-top-left-radius: 0.3em ;
+    color: white;
+    border-top-right-radius: 0.3em ;
+    margin-bottom: 0px;
+    padding-bottom: 0.6em;
+    padding-top: 1px;
+    margin-top: 12px;
+}
+.info-title> h3 {
+    margin-bottom: 0px;
+}
+
+
+
+.box{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+.listDroidVersion ::before{
+    content: '✓';
+    color: black;
+}
+.listDroidVersion li {
+    color: black;
+    text-shadow: none;
+    display: block;
+
+}
+
+.listDroidVersion  {
+  columns: 2;
+}
+
+.droidLink{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(7, 59, 7);
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+footer >p {
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255 254 254);
+    font-style: italic;
+}
+
+
+#iri{
+    justify-content: center;
+}
+
+.centralImg{
+    justify-content: center;
+    text-align: center;
+}
+
+#robozin{
+    justify-content: center;
+}
+#robozinhos{
+    justify-content: center;
+    text-align: center;
+}
+
+.video {
+    
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.frame{
+
+}
