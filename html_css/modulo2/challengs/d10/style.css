@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Condensed:wght@700&display=swap');
+
 @font-face {
     font-family: myfont;
     src: url("./fontes/idroid.otf");
@@ -8,9 +9,11 @@
 
 
 
+
+
 body{
 
-    background-color: #1aec75;
+    background-color: #99ee53;
     margin:0px;
 }
 
@@ -61,18 +64,20 @@ li > a {
     color: inherit;
 }
 li > a:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(9, 90, 211);
+    color: rgb(247, 252, 248);
+    background-color: #078627 ;
     box-shadow: 1px 1px 5px black;
-    border-radius: 0.1em;
-    padding: 2px;
+    border-radius: 0.2em;
+    padding: 5px;
+    transition: 0.4s;
+    text-shadow: none;
 }
 main{
     margin-left: 20%;
     margin-right: 20%;
     background-color: white;
     box-shadow:-2px 2px 5px black; 
-    border-radius: 0.06em;
+    border-radius: 0.2em;
 }
 
 main > h1 {
@@ -157,19 +162,28 @@ p > iframe{
 
 
 .box{
-    margin-left: 20px;
-    margin-right: 20px;
-    text-indent: 1em;
+    
+    text-align: justify;
+    text-indent: 0.6em;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+.box > ul {
+    margin-left: 0px;
+    padding: 0px;
 }
 
 
 
 
-.listDroidVersion ::before{
+.listDroidVersion > li::before{
     content: '✓';
     color: black;
+}
+.listDroidVersion > ul{
+    padding: 0px;
+    margin: 0px;
+
 }
 .listDroidVersion li {
     color: black;
@@ -188,7 +202,12 @@ p > iframe{
     text-decoration: none;
 }
 
-
+.box > p{
+    text-indent: 1em;
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 
 
 
@@ -239,7 +258,24 @@ footer >p {
     right: 0;
     bottom:0;
     width: 90%;
-    height: 90%;
-    aspect-ratio: 1.5;
+    height: 100%;
+    aspect-ratio: 1.782;
     border-radius: 0.2em;
+}
+
+.link-externo::after{
+    font-family: 'FontAwesome';
+    content: "\f14c";
+}
+.link-externo{
+    background-color: #45f594;
+    text-decoration: none;
+    color: rgb(2, 39, 5);
+    font-weight: bold;
+    padding: 0.2em;
+}
+
+.link-normal{
+    text-decoration: none;
+    color: green;
 }
