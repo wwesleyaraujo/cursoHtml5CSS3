@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+    text-align: justify;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 0.2em;
+
+    min-width: 300px;
+    max-width: 841px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
