@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap');
+:root{
+    --cor1: #633BBC; 
+    --cor2:#121214 ; 
+    --cor3: #04D361; 
+    --cor4: white; 
+    --cor5: #3d3d44; 
+}
+*{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: var(--cor2);
+    color: var(--cor5);
+    background-image: url('/html_css/images/images.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header{
+    font-family: 'Roboto', sans-serif;
+    border-style: var(--cor1);
+    border-bottom: solid #2e2e33;
+    border-width: 1px ;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #161616;
+    text-shadow: 0px 1px 0px rgb(26, 22, 22);
+    height: 90px;
+
+}
+
+.logo{
+    text-align: center;
+    color: rgb(15, 12, 12);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 100px;
+    color:rgb(221, 208, 208);
+  
+}
+#homebtn{
+    color: white;
+}
+#nav{
+    width: 100%;
+    text-align: right;
+    margin-right: 90px;
+    font-size: 1.1em;
+    display: inline-block;
+    align-items: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav ul{
+    display: block;
+}
+#nav ul li{
+    margin-right: 6em;
+    display:inline-block;
+    align-items: center;
+}
+
+.btn{
+    color: rgb(119, 117, 117);
+}
+
+.btn:hover{
+    color: rgb(212, 207, 207);
+}
+
+main{
+   width: 100%;
+}
+
+#welcome{
+    color:white;
+    text-align: center;
+  
+}
+
+#profile img{
+    width: 20%;
+}
+#welcome h1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase; 
+}
+#welcome p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#container-contact{
+    font-size: 1em;
+    font-weight: bold;
+}
+#git-contact{
+    align-items: center;
+    display: flex;
+    width: 100%;
+   justify-content: center;
+}
+#email-contact{
+    align-items: center;
+    display: flex;
+    width: 100%;
+   justify-content: center;
+   font-family: 'Opens Sans Condensed', sans-serif;
+   font-weight: normal;
+   font-size: 1em;
+}
+#git-contact img{
+    width: 2em;
+}
+#container-contact a {
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+}
+#container-contact a:hover {
+    color: rgb(83, 79, 79);
+    text-shadow: 1px 2px 1px black;
+}
+
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding:10px 10px 0px 10px;
+    height: 40px;
+    font-size: 1em;
+    text-align: center;
+    background-color:rgb(27, 24, 24);
+    color: rgb(183, 193, 201);
+}

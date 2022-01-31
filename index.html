@@ -4,27 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://github.githubassets.com/favicons/favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Repository</title>
-    <style>
-        a{
-            color: black;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        a:hover{
-            transition: 0.4s;
-            background-color: blue;
-            color: white;
-            box-shadow: 1px 1px 1px black;
-        }
-    </style>
 </head>
 <body>
-    <h1>Lista de exercícios</h1>
-    <ul>
-        <li>Modulo_1: <a href="/html_css/modulo1/">Modulo 1</a></li>
-        <li>Modulo_2: <a href="/html_css/modulo2/">Modulo 2</a></li>
-        <li>Modulo_3: <a href="/html_css/modulo3/">Modulo 3</a></li>
-    </ul>
+    <header>
+        <label class="logo"> <a id="homebtn" href="../index.html">Home</a> </label>
+        <nav class="menu" id="nav">
+            <ul>
+                <li> <a class="btn" href="./portfolio/portfolio.html"> Portfolio</a></li>
+                <li> <a class="btn" href="#"> About me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="welcome">
+            <div id="profile">
+                <h1> José Wesley Araújo  de Oliveira </h1>
+                <img src="html_css/images/DSC_2976 (2).png" >
+            </div>
+         
+            <div id="container-contact">
+                <div id="git-contact">
+                    <img src="html_css/images/github-11-24.ico" > 
+                    <p > <a href="https://github.com/wwesleyaraujo" target="_blanc">github.com/wwesleyaraujo</a> </p>
+                </div>
+                <div id="mail-contact">
+                    <p><i class="fa fa-envelope"></i> <a href="mailto:wesleyfurnas@gmail.com" target="_blanc">wesleyfurnas@gmail.com</a></p>
+                </div>
+            </div>    
+            <p> Here, you will know about my projects and skills, lets go! </p>
+        </div>
+    </main>
+    <footer id="footer"> Site created by<strong> José Wesley</strong> </footer>
 </body>
 </html>
