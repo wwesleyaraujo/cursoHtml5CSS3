@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.bloco{
+            background-image: url('/images/wallpaper002.jpg');
+            height: 150px;
+            border: 1px solid black;
+            margin:5px;
+            border-radius: 1em;
+        }
+        /* Anotation background propriedade*/
+        /* positioning part of background for each div */
+        div#r1{
+            background-position: left top;
+        }
+        div#r2{
+            background-position: left bottom;
+        }
+        div#r3{ 
+            background-position: left center;
+        }
+        div#r4{
+            background-position: right top;
+        }
+    </style>
+</head>
+<body>
+    <div id="r1"class="bloco"></div>
+    <div  id="r2"class="bloco"></div>
+    <div  id="r3"class="bloco"></div>
+    <div  id="r4"class="bloco"></div>
+</body>
+</html>
