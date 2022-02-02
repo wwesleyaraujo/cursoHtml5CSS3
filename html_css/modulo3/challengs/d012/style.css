@@ -26,7 +26,7 @@ html,body{
 body{
     font-family: var(--var3);
     width: 100%;
-    background-color: red;
+    background-color: white;
     display: block;
 }
 header{
