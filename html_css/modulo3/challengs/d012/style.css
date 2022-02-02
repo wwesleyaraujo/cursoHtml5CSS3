@@ -58,6 +58,9 @@ header > p {
     font-size: 1em;
    
 }
+#autor:hover{
+    text-decoration: underline;
+}
 main{
     font-family: var(--var2);
     font-size: 3.5vw;
