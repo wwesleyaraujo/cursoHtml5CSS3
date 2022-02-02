@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    border: 0x;
+    outline: 0px;
+}
+:root{
+    --var1: 'Passion One',cursive;
+    --var2: 'Sriracha', cursive;
+}
+:root {
+    --var3: Verdana, Geneva, Tahoma, sans-serif;
+    --var1: 'Passion One', cursive;
+    --var2: 'Sriracha', cursive;
+}
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: var(--var3);
+    width: 100%;
+    background-color: red;
+    display: block;
+}
+header{
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+  
+}
+header > h1{
+    font-size: 10vw;
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: var(--var1);
+    font-variant: small-caps;
+    width: 100%;
+    font-weight: 700;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+#autor{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1em;
+   
+}
+main{
+    font-family: var(--var2);
+    font-size: 3.5vw;
+    line-height: 2em;
+    color: black;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3.5vw;
+}
+section.normal{
+    background-color: white;
+    width: 100%;
+    padding: 70px 0px 70px 30px;
+    line-height: 2em;
+    
+}
+
+section.background{
+    padding: 70px 0px 70px 30px;
+    background-color: white;
+    width: 100%;
+}
+
+section#flor{
+    background-image: url('/imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+}
+section#flor > p {
+    background-color: rgb(2 2 2 / 55%);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#paginas {
+    background-image: url('/imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+}
+section#paginas > p {
+    background-color: rgb(2 2 2 / 55%);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section > p{
+    padding-bottom: 96px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position:fixed;
+    bottom: 0;
+    display: block;
+    padding: 10px;
+}
+footer > p {
+   
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
