@@ -138,3 +138,9 @@ footer > p {
     line-height: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#creator{
+    color: white;   
+    text-decoration: none;
+    font-family: var(--var3);
+}
