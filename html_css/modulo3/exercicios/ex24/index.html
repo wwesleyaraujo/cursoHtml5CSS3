@@ -11,20 +11,35 @@
 
         }
         table{
-            width: 400px;
+     
             border-collapse: collapse;
+        
+        }
+        thead{
+            border: 1px solid black;
+            background-color: gray;
+            color: white;
+        }
+        th{
+            border: 1px solid black;
+            padding: 4px;
         }
         td{
-            border-collapse:;
-            padding: 8px;
+            
+            padding-top: 8px;
+            padding-bottom: 8px;
             border: 1px solid black;
+            text-align: center;
 
+        }
+        tfoot{
+            border:1px solid black;
         }
         
     </style>
 </head>
 <body>
-    <h1>Minha primeira tabela</h1>
+    <h1>População do Brasil</h1>
     <!--
         Hierarquia de tabelas (simples)
         TABLE = tabela
@@ -34,25 +49,41 @@
     -->
 
     <table>
-        <tr> 
-            <td>A1</td>
-            <td>A2</td>
-            <td>A3</td>
-            <td>A4</td>
+        <caption>
+            Distribuição da população/Estado
+        </caption>
+        <thead>
+            <tr>
+                <!-- tells about column titulo scope="col"-->
+                <th scope="col" style="width: 8em;">Estado</th>
+                <th scope="col" style="width: 100px;"> População</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>
+                São Paulo
+            </td>
+            <td> 1.6000 bilhão</td>
         </tr>
-        <tr> 
-            <td>B1</td>
-            <td>B2</td>
-            <td>B3</td>
-            <td>B4</td>
+        <tr>
+            <td>
+                São Paulo
+            </td><td> 1.6000 bilhão</td>
         </tr>
-        <tr> 
-            <td>C1</td>
-            <td>C2</td>
-            <td>C3</td>
-            <td>C4</td>
+        <tr>
+            <td>
+                São Paulo
+            </td><td> 1.6000 bilhão</td>
         </tr>
+        <tfoot>
+            <!-- scope = "row "-->
+            <tr>
+                <th scope="row"> População</th>
+                <th> 210.000.000</th>
+            </tr>
+        </tfoot>
         
     </table>
+  
 </body>
 </html>
