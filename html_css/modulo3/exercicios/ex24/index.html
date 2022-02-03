@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
 
         }
-        table{
-     
+
+        table {
+
             border-collapse: collapse;
-        
+
         }
-        thead{
+
+        thead {
             border: 1px solid black;
             background-color: gray;
             color: white;
         }
-        th{
+
+        th {
             border: 1px solid black;
             padding: 4px;
         }
-        td{
-            
+
+        tbody tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        tbody tr:nth-child(even){
+            background-color: green;
+        }
+
+        td {
+
             padding-top: 8px;
             padding-bottom: 8px;
             border: 1px solid black;
             text-align: center;
 
         }
-        tfoot{
-            border:1px solid black;
+
+        tfoot {
+            border: 1px solid black;
         }
-        
     </style>
 </head>
+
 <body>
     <h1>População do Brasil</h1>
     <!--
@@ -54,36 +67,48 @@
         </caption>
         <thead>
             <tr>
-                <!-- tells about column titulo scope="col"-->
+                <!-- tells about column title scope="col"-->
                 <th scope="col" style="width: 8em;">Estado</th>
                 <th scope="col" style="width: 100px;"> População</th>
             </tr>
         </thead>
-        <tr>
-            <td>
-                São Paulo
-            </td>
-            <td> 1.6000 bilhão</td>
-        </tr>
-        <tr>
-            <td>
-                São Paulo
-            </td><td> 1.6000 bilhão</td>
-        </tr>
-        <tr>
-            <td>
-                São Paulo
-            </td><td> 1.6000 bilhão</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>
+                    São Paulo
+                </td>
+                <td> 1.6000 bilhão</td>
+            </tr>
+            <tr>
+                <td>
+                    São Paulo
+                </td>
+                <td> 1.6000 bilhão</td>
+            </tr>
+            <tr>
+                <td>
+                    São Paulo
+                </td>
+                <td> 1.6000 bilhão</td>
+            </tr>
+            <tr>
+                <td>
+                    Ceará
+                </td>
+                <td> 1.6000 bilhão</td>
+            </tr>
+        </tbody>
         <tfoot>
             <!-- scope = "row "-->
             <tr>
                 <th scope="row"> População</th>
                 <th> 210.000.000</th>
             </tr>
+          
         </tfoot>
-        
+
     </table>
-  
+
 </body>
+
 </html>
