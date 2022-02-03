@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            background-color: white;
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+
+        }
+
+        th {
+            border: 1px solid black;
+        }
+
+        tr {
+            border: solid 1px black;
+        }
+
+        td {
+            border: solid 1px black;
+        }
+
+        thead {
+            background-color: rgb(77, 71, 71);
+            color: white;
+            font-weight: bold;
+        }
+
+        .rowspan {
+            font-weight: bold;
+        }
+
+        .foot {
+            background-color: lightgray;
+        }
+        #container{
+        overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2" scope="col"> Área</th>
+                    <th rowspan="2" scope="col">Disciplina</th>
+                    <th colspan="2" scope="colgroup">Notas</th>
+                    <th rowspan="2" scope="col">Média</th>
+                </tr>
+                <tr>
+                    <td>Nota1</td>
+                    <td>Nota2</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4" class="rowspan" scope="rowgroup">Exatas</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr class="foot">
+                    <th colspan="4" class="foot" scope="row">
+                        Média de Exatas
+                    </th>
+                    <td>
+                        0.0
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="2" class="rowspan" scope="rowgroup">Humanas</th>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr class="foot">
+                    <th colspan="4" class="foot" scope="row">
+                        Média de Humanas
+                    </th>
+                    <td>
+                        0.0
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
